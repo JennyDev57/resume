@@ -18,12 +18,16 @@ export const resumeConfig: ResumeConfig = {
     photo: "/images/photo.jpg",
     photoBackEmoji: "👩‍💻", // Shown when clicking the photo (3D flip)
     title: {
-      en: "Fullstack Developer",
-      fr: "Développeuse Fullstack",
+      en: "Fullstack Developer | Frontend Developer | Technical Support",
+      fr: "Développeuse Fullstack | Développeur Front End |Support technique",
     },
     subtitle: {
-      en: "15 years of experience",
-      fr: "15 ans d'expérience",
+      fr: "",
+      en: "",
+    },
+    summary: {
+      fr: "Avec plus de 15 ans d'expériences dans le développement web dont 3 ans sur les technologies modernes telle que ReactJs et Typescript, je suis actuellement disponible pour débuter une nouvelle opportunité à temps partiel (80%), en full remote.",
+      en: "With more than 15 years of experience in web development, including 3 years in modern technologies such as ReactJs and TypeScript, I am currently available to start a new opportunity part-time (80%), fully remote.",
     },
     location: "Vinzier, France",
   },
@@ -96,6 +100,7 @@ export const resumeConfig: ResumeConfig = {
         { name: "Node.js" },
         { name: "Express.js" },
         { name: "API Rest / GraphQL" },
+        { name: "PHP" },
         { name: "Zend" },
         { name: "Symfony" },
       ],
@@ -140,7 +145,7 @@ export const resumeConfig: ResumeConfig = {
     },
     {
       title: {
-        fr: "Formation Continue",
+        fr: "Formation Continue (en cours / en projet)",
         en: "Continuous Learning",
       },
       type: "badges",
@@ -339,28 +344,56 @@ export const resumeConfig: ResumeConfig = {
   // ===== EDUCATION =====
   education: [
     {
-      school: { en: "University of Paris", fr: "Université de Paris" },
-      degree: { en: "Master in Computer Science", fr: "Master Informatique" },
-      specialty: {
-        en: "Web & Mobile Development",
-        fr: "Développement Web & Mobile",
+      school: {
+        en: "IUT Paul Verlaine - Metz",
+        fr: "IUT Paul Verlaine - Metz",
       },
-      period: "2017 - 2019",
+      degree: {
+        en: "Professional Bachelor's Degree in Computer Science",
+        fr: "Licence Professionnelle - Systèmes Informatiques et Logiciels",
+      },
+      specialty: {
+        en: "Web and E-commerce Professions",
+        fr: "Métier du Web et du Commerce Électronique",
+      },
+      period: "2006 - 2007",
     },
     {
-      school: { en: "University of Paris", fr: "Université de Paris" },
-      degree: {
-        en: "Bachelor in Computer Science",
-        fr: "Licence Informatique",
+      school: {
+        en: "IUT Paul Verlaine - Metz",
+        fr: "IUT Paul Verlaine - Metz",
       },
-      period: "2014 - 2017",
+      degree: {
+        en: "DUT in Computer Science",
+        fr: "DUT Informatique",
+      },
+      specialty: {
+        en: "Computer Engineering",
+        fr: "Génie Informatique",
+      },
+      period: "2005 - 2006",
+    },
+    {
+      school: {
+        en: "Lycée Robert Schuman, Metz",
+        fr: "Lycée Robert Schuman, Metz",
+      },
+      degree: {
+        en: "Baccalaureate in Science and Technology for Tertiary",
+        fr: "Baccalauréat Sciences et Technologies Tertiaires",
+      },
+      specialty: {²
+        en: "Computer Science and Management",
+        fr: "Informatique et Gestion",
+      },
+      period: " 2004",
     },
   ],
 
   // ===== HOBBIES (optional) =====
   hobbies: [
     {
-      title: { en: "Loisirs créatifs", fr: "Creative hobbies" },
+      title: { fr: "Loisirs créatifs", en: "Creative hobbies" },
     },
     {
       title: { en: "Hiking", fr: "Randonnée" },
@@ -372,10 +405,13 @@ export const resumeConfig: ResumeConfig = {
   // Auto-detected: just drop your PDF files in public/cv/fr/ and public/cv/en/
   // The download button will appear automatically — no config needed!
   // Uncomment below only if you need to override the auto-detection:
-  // pdf: {
-  //   label: { en: 'Download PDF', fr: 'Télécharger le PDF' },
-  //   path: { en: '/cv/en/resume-en.pdf', fr: '/cv/fr/resume-fr.pdf' },
-  // },
+  pdf: {
+    label: { en: "Download PDF", fr: "Télécharger le PDF" },
+    path: {
+      //en: "/cv/en/CV_Durthaler_Jennifer-en.pdf",
+      fr: "/cv/fr/CV_Durthaler_Jennifer-fr.pdf",
+    },
+  },
 
   // ===== THEME =====
   theme: {

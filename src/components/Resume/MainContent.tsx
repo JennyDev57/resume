@@ -26,7 +26,7 @@ export function MainContent() {
     <div className="md:w-[62%] p-8">
       {/* Header */}
       <div className="text-center mb-8">
-        <h1 className="text-3xl md:text-4xl font-bold tracking-[0.15em] text-resume-text">
+        <h1 className="text-3xl md:text-3xl font-bold tracking-[0.15em] text-resume-text">
           {personal.name.toUpperCase()}
         </h1>
         <p className="text-base text-resume-text-secondary tracking-widest mt-2">
@@ -34,6 +34,11 @@ export function MainContent() {
         </p>
         {personal.subtitle && (
           <p className="text-sm text-resume-primary mt-1">{resolve(personal.subtitle)}</p>
+        )}
+        {personal.summary && (
+          <p className="text-xs text-resume-text-secondary mt-3 leading-relaxed max-w-2xl mx-auto text-justify">
+            {resolve(personal.summary)}
+          </p>
         )}
       </div>
 
@@ -57,19 +62,19 @@ export function MainContent() {
               details={
                 exp.details
                   ? {
-                      context: resolve(exp.details.context),
-                      tasks: exp.details.tasks ? resolveArray(exp.details.tasks) : undefined,
-                      training: exp.details.training ? resolveArray(exp.details.training) : undefined,
-                      env: resolve(exp.details.env),
-                    }
+                    context: resolve(exp.details.context),
+                    tasks: exp.details.tasks ? resolveArray(exp.details.tasks) : undefined,
+                    training: exp.details.training ? resolveArray(exp.details.training) : undefined,
+                    env: resolve(exp.details.env),
+                  }
                   : undefined
               }
               subItem={
                 exp.subItem
                   ? {
-                      title: resolve(exp.subItem.title),
-                      description: resolve(exp.subItem.description),
-                    }
+                    title: resolve(exp.subItem.title),
+                    description: resolve(exp.subItem.description),
+                  }
                   : undefined
               }
               labels={experienceLabels}
