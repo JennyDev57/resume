@@ -382,7 +382,7 @@ export const resumeConfig: ResumeConfig = {
         en: "Baccalaureate in Science and Technology for Tertiary",
         fr: "Baccalauréat Sciences et Technologies Tertiaires",
       },
-      specialty: {²
+      specialty: {
         en: "Computer Science and Management",
         fr: "Informatique et Gestion",
       },
