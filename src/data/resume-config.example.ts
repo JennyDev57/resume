@@ -444,6 +444,8 @@ export const resumeConfig: ResumeConfig = {
       },
       switchTheme: { en: "Toggle dark mode", fr: "Changer le thème" },
       downloadPdf: { en: "Download PDF", fr: "Télécharger le PDF" },
+      exportPdf: { en: "Export as PDF", fr: "Exporter en PDF" },
+      loading: { en: "Loading...", fr: "Chargement..." },
     },
   },
 };

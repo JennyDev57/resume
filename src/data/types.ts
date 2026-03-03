@@ -139,6 +139,8 @@ export interface ResumeLabels {
     clickHint: LocalizedString;
     switchTheme: LocalizedString;
     downloadPdf?: LocalizedString;
+    exportPdf?: LocalizedString;
+    loading?: LocalizedString;
   };
 }
 

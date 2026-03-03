@@ -6,6 +6,7 @@ import { MainContent } from './MainContent'
 import { ThemeToggle } from './ThemeToggle'
 import { LanguageToggle } from './LanguageToggle'
 import { PdfDownload } from './PdfDownload'
+import { ExportPdfContent } from './ExportPdfContent'
 
 export function Resume() {
   const { resolve } = useTranslation()
@@ -14,7 +15,10 @@ export function Resume() {
     <div className="w-full max-w-4xl mx-auto px-4 py-8">
       {/* Top bar: theme toggle + language + pdf */}
       <div className="flex items-center justify-between mb-4">
-        <PdfDownload />
+        <div className="flex items-center gap-2">
+          <PdfDownload />
+          <ExportPdfContent />
+        </div>
         <div className="flex items-center gap-2">
           <LanguageToggle />
           <ThemeToggle label={resolve(resumeConfig.labels.actions.switchTheme)} />
