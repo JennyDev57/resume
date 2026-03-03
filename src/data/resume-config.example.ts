@@ -18,15 +18,15 @@ export const resumeConfig: ResumeConfig = {
     photo: "/images/photo.jpg",
     photoBackEmoji: "👩‍💻", // Shown when clicking the photo (3D flip)
     title: {
-      en: "Fullstack Developer | Frontend Developer | Technical Support",
-      fr: "Développeuse Fullstack | Développeur Front End |Support technique",
+      en: "Fullstack Developer",
+      fr: "Développeuse Fullstack",
     },
     subtitle: {
-      fr: "",
-      en: "",
+      fr: "15 ans d'expérience | React, TypeScript | Remote",
+      en: "15 years experience | React, TypeScript | Remote",
     },
     summary: {
-      fr: "Avec plus de 15 ans d'expériences dans le développement web dont 3 ans sur les technologies modernes telle que ReactJs et Typescript, je suis actuellement disponible pour débuter une nouvelle opportunité à temps partiel (80%), en full remote.",
+      fr: "Avec plus de 15 ans d'expérience dans le développement web dont 3 ans sur les technologies modernes telle que React et Typescript, je suis actuellement disponible pour débuter une nouvelle opportunité à temps partiel (80%), en full remote.",
       en: "With more than 15 years of experience in web development, including 3 years in modern technologies such as ReactJs and TypeScript, I am currently available to start a new opportunity part-time (80%), fully remote.",
     },
     location: "Vinzier, France",
@@ -164,157 +164,151 @@ export const resumeConfig: ResumeConfig = {
   experiences: [
     {
       id: "company-a",
-      company: { en: "TechCorp", fr: "TechCorp" },
+      company: {
+        en: "TokTokDoc - Strasbourg - A distance",
+        fr: "TokTokDoc - Strasbourg - À distance",
+      },
       role: {
-        en: "Senior Fullstack Developer",
-        fr: "Développeuse Fullstack Senior",
+        en: "Middle Fullstack Developer",
+        fr: "Développeuse Confirmée",
       },
       type: { en: "Permanent", fr: "CDI" },
-      period: { en: "2022 - Present", fr: "2022 - Présent" },
+      period: { en: "2022 - Present", fr: "Août 2024 - Fév 2025" },
       description: {
-        en: "Led the development of a SaaS platform used by 10k+ users. Built microservices architecture and modern React frontend.",
-        fr: "Direction du développement d'une plateforme SaaS utilisée par 10k+ utilisateurs. Architecture microservices et frontend React moderne.",
+        en: "Contributing to the development of a telemedicine platform used by 700 healthcare facilities in France.",
+        fr: "Participation au développement d'une plateforme de télémédecine utilisée par 700 établissements en France.",
       },
-      techs: ["React", "TypeScript", "Node.js", "PostgreSQL", "Docker", "AWS"],
+      techs: [
+        "React",
+        "Vue.js",
+        "TypeScript",
+        "Nx",
+        "GraphQL",
+        "Parse",
+        "PostgreSQL",
+        "MongoDB",
+        "Git / GitLab CI",
+        "Docker",
+        "Jira",
+        "Figma",
+      ],
       isHighlighted: true,
       details: {
         context: {
-          en: "Team of 8 developers within a 50-person product company. Agile/Scrum methodology with 2-week sprints, CI/CD pipeline with GitHub Actions, code reviews on every PR.",
-          fr: "Équipe de 8 développeurs au sein d'une société produit de 50 personnes. Méthodologie Agile/Scrum avec sprints de 2 semaines, pipeline CI/CD avec GitHub Actions, code review sur chaque PR.",
+          en: "",
+          fr: "Équipe de 10 personnes (6 développeurs, 1 UI/UX, 1 PO, 1 PM, 1 CTO) au sein d'une société de 100 personnes. Méthodologie Agile/Scrum avec sprints de 2 semaines, pipeline CI/CD avec GitLab CI, code review sur chaque PR.",
         },
         tasks: {
-          en: [
-            "Designed and implemented the frontend architecture (monorepo, shared component library)",
-            "Built a real-time notification system using WebSockets and Redis pub/sub",
-            "Migrated legacy codebase from JavaScript to TypeScript (200+ files)",
-            "Implemented role-based access control (RBAC) across the entire platform",
-            "Set up automated testing with 85% code coverage (unit, integration, E2E)",
-            "Led the migration from REST to GraphQL for the main API",
-            "Built a dashboard analytics module with interactive charts and export features",
-            "Mentored 3 junior developers through pair programming and weekly 1-on-1s",
-          ],
+          en: [],
           fr: [
-            "Conception et implémentation de l'architecture frontend (monorepo, bibliothèque de composants partagés)",
-            "Création d'un système de notifications temps réel via WebSockets et Redis pub/sub",
-            "Migration du code legacy de JavaScript vers TypeScript (200+ fichiers)",
-            "Implémentation d'un contrôle d'accès basé sur les rôles (RBAC) sur toute la plateforme",
-            "Mise en place de tests automatisés avec 85% de couverture (unitaires, intégration, E2E)",
-            "Pilotage de la migration de REST vers GraphQL pour l'API principale",
-            "Développement d'un module de tableau de bord analytique avec graphiques interactifs et export",
-            "Mentorat de 3 développeurs juniors via pair programming et 1-on-1 hebdomadaires",
+            "Collaboration avec les équipes : alignement des fonctionnalités avec les besoins utilisateurs",
+            "Évolution du produit : ajout de fonctionnalités pour accroitre la valeur ajoutée pour les clients",
+            "Optimisation des performances : chargement 2x plus rapide",
+            "Maintenances et Support : Résolution d'anomalies assurant un niveau de satisfaction client élevée",
           ],
         },
-        training: {
-          en: [
-            "AWS Solutions Architect certification",
-            "Internal training on Kubernetes orchestration",
-          ],
-          fr: [
-            "Certification AWS Solutions Architect",
-            "Formation interne sur l'orchestration Kubernetes",
-          ],
-        },
+        training: {},
         env: {
-          en: "React / TypeScript / Node.js / PostgreSQL / GraphQL / Redis / Docker / AWS / GitHub Actions / Datadog",
-          fr: "React / TypeScript / Node.js / PostgreSQL / GraphQL / Redis / Docker / AWS / GitHub Actions / Datadog",
+          en: "React / Vue.js / TypeScript / Nx / PostgreSQL / MongoDB / GraphQL / Parse / Docker  / GitLab CI / Jira / Figma",
+          fr: "React / Vue.js / TypeScript / Nx / PostgreSQL / MongoDB / GraphQL / Parse / Docker  / GitLab CI / Jira / Figma",
         },
       },
     },
-    {
-      id: "company-b",
-      company: { en: "WebAgency", fr: "WebAgency" },
-      role: { en: "Frontend Developer", fr: "Développeuse Frontend" },
-      type: { en: "Permanent", fr: "CDI" },
-      period: { en: "2019 - 2022", fr: "2019 - 2022" },
-      description: {
-        en: "Developed responsive web applications for various clients. Specialized in React and Angular projects.",
-        fr: "Développement d'applications web responsives pour divers clients. Spécialisée en projets React et Angular.",
-      },
-      techs: ["React", "Angular", "TypeScript", "SCSS"],
-      details: {
-        context: {
-          en: "Digital agency with 20+ clients across various industries (retail, finance, healthcare). Team of 12 developers, working on 3-4 projects simultaneously.",
-          fr: "Agence digitale avec 20+ clients dans différents secteurs (retail, finance, santé). Équipe de 12 développeurs, travaillant sur 3-4 projets simultanément.",
-        },
-        tasks: {
-          en: [
-            "Built 15+ client-facing web applications from scratch",
-            "Created and maintained a shared design system used across all agency projects",
-            "Implemented complex form workflows with multi-step validation",
-            "Optimized web performance achieving 90+ scores on Core Web Vitals",
-            "Integrated third-party APIs (payment, CRM, analytics)",
-            "Set up Storybook documentation for reusable components",
-            "Collaborated closely with UX designers to translate Figma mockups into pixel-perfect UIs",
-          ],
-          fr: [
-            "Développement de 15+ applications web clients from scratch",
-            "Création et maintenance d'un design system partagé utilisé sur tous les projets de l'agence",
-            "Implémentation de workflows de formulaires complexes avec validation multi-étapes",
-            "Optimisation des performances web avec scores 90+ sur les Core Web Vitals",
-            "Intégration d'APIs tierces (paiement, CRM, analytics)",
-            "Mise en place de la documentation Storybook pour les composants réutilisables",
-            "Collaboration étroite avec les designers UX pour traduire les maquettes Figma en interfaces pixel-perfect",
-          ],
-        },
-        training: {
-          en: [
-            "Angular Advanced workshop (2 days)",
-            "Accessibility (WCAG 2.1) certification",
-          ],
-          fr: [
-            "Workshop Angular Avancé (2 jours)",
-            "Certification Accessibilité (WCAG 2.1)",
-          ],
-        },
-        env: {
-          en: "React / Angular / TypeScript / SCSS / Tailwind CSS / Storybook / Figma / GitLab CI",
-          fr: "React / Angular / TypeScript / SCSS / Tailwind CSS / Storybook / Figma / GitLab CI",
-        },
-      },
-    },
-    {
-      id: "internship",
-      company: { en: "StartupXYZ", fr: "StartupXYZ" },
-      role: {
-        en: "Fullstack Developer Intern",
-        fr: "Stagiaire Développeuse Fullstack",
-      },
-      type: { en: "Internship", fr: "Stage" },
-      period: { en: "2018 - 2019", fr: "2018 - 2019" },
-      description: {
-        en: "Contributed to the development of an e-commerce platform. Gained experience in fullstack development.",
-        fr: "Contribution au développement d'une plateforme e-commerce. Acquisition d'expérience en développement fullstack.",
-      },
-      techs: ["React", "Node.js", "MongoDB", "Machine Learning"],
-      details: {
-        context: {
-          en: "Early-stage startup (seed round), small team of 5 developers building an e-commerce platform from the ground up. Fast-paced environment with weekly releases.",
-          fr: "Startup en phase de démarrage (seed round), petite équipe de 5 développeurs construisant une plateforme e-commerce from scratch. Environnement rapide avec des releases hebdomadaires.",
-        },
-        tasks: {
-          en: [
-            "Developed the product catalog with advanced filtering and search",
-            "Built the shopping cart with real-time inventory checking",
-            "Integrated Stripe payment gateway with 3D Secure support",
-            "Implemented user authentication with JWT and OAuth (Google, Facebook)",
-            "Created an admin dashboard for order management and analytics",
-            "Wrote API documentation with Swagger/OpenAPI",
-          ],
-          fr: [
-            "Développement du catalogue produits avec filtrage avancé et recherche",
-            "Création du panier d'achat avec vérification de stock en temps réel",
-            "Intégration de la passerelle de paiement Stripe avec support 3D Secure",
-            "Implémentation de l'authentification utilisateur avec JWT et OAuth (Google, Facebook)",
-            "Création d'un tableau de bord admin pour la gestion des commandes et les analytics",
-            "Rédaction de la documentation API avec Swagger/OpenAPI",
-          ],
-        },
-        env: {
-          en: "React / Node.js / Express / MongoDB / Stripe / JWT / Docker / Heroku",
-          fr: "React / Node.js / Express / MongoDB / Stripe / JWT / Docker / Heroku",
-        },
-      },
-    },
+    // {
+    //   id: "company-b",
+    //   company: { en: "WebAgency", fr: "WebAgency" },
+    //   role: { en: "Frontend Developer", fr: "Développeuse Frontend" },
+    //   type: { en: "Permanent", fr: "CDI" },
+    //   period: { en: "2019 - 2022", fr: "2019 - 2022" },
+    //   description: {
+    //     en: "Developed responsive web applications for various clients. Specialized in React and Angular projects.",
+    //     fr: "Développement d'applications web responsives pour divers clients. Spécialisée en projets React et Angular.",
+    //   },
+    //   techs: ["React", "Angular", "TypeScript", "SCSS"],
+    //   details: {
+    //     context: {
+    //       en: "Digital agency with 20+ clients across various industries (retail, finance, healthcare). Team of 12 developers, working on 3-4 projects simultaneously.",
+    //       fr: "Agence digitale avec 20+ clients dans différents secteurs (retail, finance, santé). Équipe de 12 développeurs, travaillant sur 3-4 projets simultanément.",
+    //     },
+    //     tasks: {
+    //       en: [
+    //         "Built 15+ client-facing web applications from scratch",
+    //         "Created and maintained a shared design system used across all agency projects",
+    //         "Implemented complex form workflows with multi-step validation",
+    //         "Optimized web performance achieving 90+ scores on Core Web Vitals",
+    //         "Integrated third-party APIs (payment, CRM, analytics)",
+    //         "Set up Storybook documentation for reusable components",
+    //         "Collaborated closely with UX designers to translate Figma mockups into pixel-perfect UIs",
+    //       ],
+    //       fr: [
+    //         "Développement de 15+ applications web clients from scratch",
+    //         "Création et maintenance d'un design system partagé utilisé sur tous les projets de l'agence",
+    //         "Implémentation de workflows de formulaires complexes avec validation multi-étapes",
+    //         "Optimisation des performances web avec scores 90+ sur les Core Web Vitals",
+    //         "Intégration d'APIs tierces (paiement, CRM, analytics)",
+    //         "Mise en place de la documentation Storybook pour les composants réutilisables",
+    //         "Collaboration étroite avec les designers UX pour traduire les maquettes Figma en interfaces pixel-perfect",
+    //       ],
+    //     },
+    //     training: {
+    //       en: [
+    //         "Angular Advanced workshop (2 days)",
+    //         "Accessibility (WCAG 2.1) certification",
+    //       ],
+    //       fr: [
+    //         "Workshop Angular Avancé (2 jours)",
+    //         "Certification Accessibilité (WCAG 2.1)",
+    //       ],
+    //     },
+    //     env: {
+    //       en: "React / Angular / TypeScript / SCSS / Tailwind CSS / Storybook / Figma / GitLab CI",
+    //       fr: "React / Angular / TypeScript / SCSS / Tailwind CSS / Storybook / Figma / GitLab CI",
+    //     },
+    //   },
+    // },
+    // {
+    //   id: "internship",
+    //   company: { en: "StartupXYZ", fr: "StartupXYZ" },
+    //   role: {
+    //     en: "Fullstack Developer Intern",
+    //     fr: "Stagiaire Développeuse Fullstack",
+    //   },
+    //   type: { en: "Internship", fr: "Stage" },
+    //   period: { en: "2018 - 2019", fr: "2018 - 2019" },
+    //   description: {
+    //     en: "Contributed to the development of an e-commerce platform. Gained experience in fullstack development.",
+    //     fr: "Contribution au développement d'une plateforme e-commerce. Acquisition d'expérience en développement fullstack.",
+    //   },
+    //   techs: ["React", "Node.js", "MongoDB", "Machine Learning"],
+    //   details: {
+    //     context: {
+    //       en: "Early-stage startup (seed round), small team of 5 developers building an e-commerce platform from the ground up. Fast-paced environment with weekly releases.",
+    //       fr: "Startup en phase de démarrage (seed round), petite équipe de 5 développeurs construisant une plateforme e-commerce from scratch. Environnement rapide avec des releases hebdomadaires.",
+    //     },
+    //     tasks: {
+    //       en: [
+    //         "Developed the product catalog with advanced filtering and search",
+    //         "Built the shopping cart with real-time inventory checking",
+    //         "Integrated Stripe payment gateway with 3D Secure support",
+    //         "Implemented user authentication with JWT and OAuth (Google, Facebook)",
+    //         "Created an admin dashboard for order management and analytics",
+    //         "Wrote API documentation with Swagger/OpenAPI",
+    //       ],
+    //       fr: [
+    //         "Développement du catalogue produits avec filtrage avancé et recherche",
+    //         "Création du panier d'achat avec vérification de stock en temps réel",
+    //         "Intégration de la passerelle de paiement Stripe avec support 3D Secure",
+    //         "Implémentation de l'authentification utilisateur avec JWT et OAuth (Google, Facebook)",
+    //         "Création d'un tableau de bord admin pour la gestion des commandes et les analytics",
+    //         "Rédaction de la documentation API avec Swagger/OpenAPI",
+    //       ],
+    //     },
+    //     env: {
+    //       en: "React / Node.js / Express / MongoDB / Stripe / JWT / Docker / Heroku",
+    //       fr: "React / Node.js / Express / MongoDB / Stripe / JWT / Docker / Heroku",
+    //     },
+    //   },
+    // },
   ],
 
   // ===== PROJECTS (optional) =====
