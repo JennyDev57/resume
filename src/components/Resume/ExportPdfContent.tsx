@@ -27,13 +27,53 @@ export function ExportPdfContent() {
                 return
             }
 
+            // create a semi-transparent overlay with spinner so the page remains visible
+            const overlay = document.createElement('div')
+            overlay.setAttribute('data-export-overlay', 'true')
+            Object.assign(overlay.style, {
+                position: 'fixed',
+                top: '0',
+                left: '0',
+                width: '100%',
+                height: '100%',
+                backgroundColor: 'rgba(255,255,255,0.8)',
+                zIndex: '9999',
+                display: 'flex',
+                alignItems: 'center',
+                justifyContent: 'center',
+            })
+            // inject spinner styles once
+            if (!document.getElementById('export-spinner-styles')) {
+                const spinnerStyles = document.createElement('style')
+                spinnerStyles.id = 'export-spinner-styles'
+                spinnerStyles.textContent = `
+.export-spinner {
+  width: 40px;
+  height: 40px;
+  border: 4px solid #ccc;
+  border-top-color: #333;
+  border-radius: 50%;
+  animation: spin 1s linear infinite;
+}
+@keyframes spin {
+  to { transform: rotate(360deg); }
+}
+                `
+                document.head.appendChild(spinnerStyles)
+            }
+            // add spinner element
+            const spinner = document.createElement('div')
+            spinner.setAttribute('class', 'export-spinner')
+            overlay.appendChild(spinner)
+            document.body.appendChild(overlay)
+
             // First, expand all collapsible items by clicking their buttons
             const expandableButtons = Array.from(document.querySelectorAll('button[aria-expanded="false"]'))
             for (const button of expandableButtons) {
                 (button as HTMLButtonElement).click()
             }
 
-            // Wait for animations to complete
+            // Wait for animations to complete (overlay hides them)
             await new Promise(resolve => setTimeout(resolve, 1000))
 
             // Temporarily hide problematic classes for html2canvas
@@ -164,6 +204,11 @@ export function ExportPdfContent() {
             alert(language === 'fr' ? 'Une erreur est survenue lors de l\'export PDF' : 'An error occurred while exporting PDF')
         } finally {
             setIsLoading(false)
+            // remove overlay if it was added
+            const existingOverlay = document.querySelector('div[data-export-overlay]')
+            if (existingOverlay && existingOverlay.parentNode) {
+                existingOverlay.parentNode.removeChild(existingOverlay)
+            }
         }
     }
 
