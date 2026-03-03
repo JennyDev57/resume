@@ -47,10 +47,14 @@ export const resumeConfig: ResumeConfig = {
 
   // ===== CONTACT =====
   contact: [
-    { type: "github", label: "janedoe", href: "https://github.com/JennyDev57" },
+    {
+      type: "github",
+      label: "jennyDev57",
+      href: "https://github.com/JennyDev57",
+    },
     {
       type: "linkedin",
-      label: "Jane Doe",
+      label: "Jennifer Durthaler",
       href: "www.linkedin.com/in/jennifer-durthaler-05249322",
     },
     { type: "email", label: "jennifer.durthaler@gmail.com" },
@@ -92,7 +96,7 @@ export const resumeConfig: ResumeConfig = {
         { name: "Node.js" },
         { name: "Express.js" },
         { name: "API Rest / GraphQL" },
-        { name: "PHP", details: "Zend" },
+        { name: "Zend" },
         { name: "Symfony" },
       ],
     },
@@ -133,6 +137,21 @@ export const resumeConfig: ResumeConfig = {
       },
       type: "badges",
       items: [{ name: "Jira" }, { name: "Figma" }],
+    },
+    {
+      title: {
+        fr: "Formation Continue",
+        en: "Continuous Learning",
+      },
+      type: "badges",
+      items: [
+        { name: "Mocha" },
+        { name: "Cypress" },
+        { name: "Tailwind CSS" },
+        { name: "Next.js" },
+        { name: "Angular" },
+        { name: "Laravel" },
+      ],
     },
   ],
 
@@ -297,24 +316,23 @@ export const resumeConfig: ResumeConfig = {
   projects: [
     {
       id: "project-a",
-      title: { en: "WeatherApp", fr: "WeatherApp" },
+      title: { en: "WattBudget ", fr: "WattBudget" },
       description: {
-        en: "A real-time weather dashboard built with React and OpenWeather API.",
-        fr: "Un tableau de bord météo en temps réel construit avec React et l'API OpenWeather.",
+        en: "A web app to calculate the cost charging for electric cars.",
+        fr: "Calcul du prix de revient de la charge pour voitures électriques.",
       },
-      techs: ["React", "TypeScript"],
-      url: "https://weather-app.example.com",
-      github: "https://github.com/janedoe/weather-app",
-    },
-    {
-      id: "project-b",
-      title: { en: "TaskManager", fr: "TaskManager" },
-      description: {
-        en: "A Kanban-style task management tool with drag-and-drop.",
-        fr: "Un outil de gestion de tâches style Kanban avec glisser-déposer.",
-      },
-      techs: ["React", "Node.js", "PostgreSQL"],
-      github: "https://github.com/janedoe/task-manager",
+      techs: [
+        "React",
+        "TypeScript",
+        "MongoDB",
+        "Express.js",
+        "BetterAuth",
+        "Astro",
+        "ShadCN/UI",
+        "Tailwind CSS",
+      ],
+      url: "",
+      github: "https://github.com/JennyDev57/carCharging",
     },
   ],
 
@@ -342,22 +360,11 @@ export const resumeConfig: ResumeConfig = {
   // ===== HOBBIES (optional) =====
   hobbies: [
     {
-      title: { en: "Photography", fr: "Photographie" },
-      details: [
-        { en: "Street photography", fr: "Photo de rue" },
-        { en: "5 years", fr: "5 ans" },
-      ],
+      title: { en: "Loisirs créatifs", fr: "Creative hobbies" },
     },
     {
       title: { en: "Hiking", fr: "Randonnée" },
       details: [{ en: "Mountain trails", fr: "Sentiers de montagne" }],
-    },
-    {
-      title: { en: "Open Source", fr: "Open Source" },
-    },
-    {
-      title: { en: "Guitar", fr: "Guitare" },
-      details: [{ en: "3 years", fr: "3 ans" }],
     },
   ],
 
@@ -372,7 +379,7 @@ export const resumeConfig: ResumeConfig = {
 
   // ===== THEME =====
   theme: {
-    preset: "warm", // 'minimal' | 'warm' | 'ocean' | 'forest' | 'slate' | 'lilac'
+    preset: "ocean", // 'minimal' | 'warm' | 'ocean' | 'forest' | 'slate' | 'lilac'
     // You can override individual colors:
     // colors: {
     //   primary: '#8B5A2B',
