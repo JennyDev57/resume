@@ -12,7 +12,7 @@ import type { ResumeConfig } from './types'
 export const resumeConfig: ResumeConfig = {
   // ===== PERSONAL INFO =====
   personal: {
-    name: 'Jane Doe',
+    name: 'Jennifer Durthaler',
     // Auto-detected: just drop your photo or profile image in public/images/ (any .jpg, .png, .webp)
     // You can also set a specific path here to override auto-detection:
     photo: '/images/photo.jpg',
@@ -22,15 +22,15 @@ export const resumeConfig: ResumeConfig = {
       fr: 'Développeuse Fullstack',
     },
     subtitle: {
-      en: '6 years of experience',
-      fr: '6 ans d\'expérience',
+      en: '15 years of experience',
+      fr: '15 ans d\'expérience',
     },
-    location: 'Paris, France',
+    location: 'Vinzier, France',
   },
 
   // ===== SEO (used in <head> meta tags) =====
   seo: {
-    title: 'Jane Doe — Fullstack Developer',
+    title: 'Jennifer Durthaler — Fullstack Developer',
     description: 'Interactive resume of Jane Doe, Fullstack Developer specializing in React and TypeScript.',
   },
 
