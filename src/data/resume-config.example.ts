@@ -62,7 +62,7 @@ export const resumeConfig: ResumeConfig = {
       href: "www.linkedin.com/in/jennifer-durthaler-05249322",
     },
     { type: "email", label: "jennifer.durthaler@gmail.com" },
-    { type: "phone", label: "+33 6  78 84 25 95" },
+    { type: "phone", label: "+33 6  78 84 28 95" },
     { type: "location", label: "Vinzier, France" },
   ],
 

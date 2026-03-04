@@ -6,7 +6,6 @@ import { MainContent } from './MainContent'
 import { ThemeToggle } from './ThemeToggle'
 import { LanguageToggle } from './LanguageToggle'
 import { PdfDownload } from './PdfDownload'
-import { ExportPdfContent } from './ExportPdfContent'
 
 export function Resume() {
   const { resolve } = useTranslation()
