@@ -222,7 +222,7 @@ export const resumeConfig: ResumeConfig = {
       },
       role: { en: "Frontend Developer", fr: "Développeuse Frontend" },
       type: { en: "Permanent", fr: "CDI" },
-      period: { en: "", fr: "Juin 2021 - Mars 2023" },
+      period: { en: "Juin 2021 - Mars 2023", fr: "Juin 2021 - Mars 2023" },
       description: {
         en: "",
         fr: "Développement d'applications web pour divers projets",
