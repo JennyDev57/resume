@@ -366,7 +366,7 @@ export const resumeConfig: ResumeConfig = {
         tasks: {
           en: [],
           fr: [
-            "Assistant technique de projet : Évaluer la faisabilité d\’un projet, encadrement du projet avec les différents acteurs ( graphiste, développeur), suivi clients.",
+            "Assistant technique de projet : Évaluer la faisabilité d’un projet, encadrement du projet avec les différents acteurs ( graphiste, développeur), suivi clients.",
             "Maintenance serveur web (IIS) et mails : gestion des incidents, configuration de nouveaux sites et adresses mails",
             "Développement et maintenance des sites vitrine",
           ],
