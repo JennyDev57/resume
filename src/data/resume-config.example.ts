@@ -173,7 +173,7 @@ export const resumeConfig: ResumeConfig = {
         fr: "Développeuse Confirmée",
       },
       type: { en: "Permanent", fr: "CDI" },
-      period: { en: "2022 - Present", fr: "Août 2024 - Fév 2025" },
+      period: { en: "Août 2024 - Fév 2025", fr: "Août 2024 - Fév 2025" },
       description: {
         en: "Contributing to the development of a telemedicine platform used by 700 healthcare facilities in France.",
         fr: "Participation au développement d'une plateforme de télémédecine utilisée par 700 établissements en France.",
