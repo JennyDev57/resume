@@ -26,8 +26,8 @@ export const resumeConfig: ResumeConfig = {
       en: "15 years experience | React, TypeScript | Remote",
     },
     summary: {
-      fr: "Avec plus de 15 ans d'expérience dans le développement web dont 3 ans sur les technologies modernes telle que React et Typescript, je suis actuellement disponible pour débuter une nouvelle opportunité à temps partiel (80%), en full remote.",
-      en: "With more than 15 years of experience in web development, including 3 years in modern technologies such as ReactJs and TypeScript, I am currently available to start a new opportunity part-time (80%), fully remote.",
+      fr: "Avec plus de 15 ans d'expérience dans le développement web dont 3 ans sur les technologies modernes telle que React et Typescript.",
+      en: "With more than 15 years of experience in web development, including 3 years in modern technologies such as ReactJs and TypeScript.",
     },
     location: "Vinzier, France",
   },
@@ -217,8 +217,8 @@ export const resumeConfig: ResumeConfig = {
     {
       id: "company-b",
       company: {
-        en: "Good Angel, Paris - A distance",
-        fr: "Good Angel, Paris - Remote",
+        fr: "Good Angel, Paris - A distance",
+        en: "Good Angel, Paris - Remote",
       },
       role: { en: "Frontend Developer", fr: "Développeuse Frontend" },
       type: { en: "Permanent", fr: "CDI" },
@@ -287,17 +287,15 @@ export const resumeConfig: ResumeConfig = {
       details: {
         context: {
           en: "",
-          fr: "Société de logiciels de diagnostic et médicaux. Equipes de 5 développeurs. Méthodologie Agile/Scrum avec sprints de 2 semaines, pipeline CI/CD avec GitLab CI, code review sur chaque PR.",
+          fr: "Société de logiciels de diagnostic et médicaux. Equipes de 5 développeurs. Méthodologie Agile/Scrum avec sprints de 2 semaines, pipeline CI/CD avec GitLab CI, code review sur chaque PR. Tâches : 40% développement, 60% support technique",
         },
         tasks: {
           en: [],
           fr: [
-            "Développement (40%):",
-            "Evolution de produit : développement, optimisation et maintenance des logiciels dans le secteur de la santé :",
-            "Préparation de la BDD + développement de modules avec Zend en MVC",
-            "Ecriture en ASI2 (XML) des algorithmes pour l'interprétation clinique",
-            "Support technique (60 %):",
-            "Suivi et résolution ( débogage ) des tickets de support utilisateur (Odoo) : analyse des problèmes, reproduction, correction et validation des solutions",
+            "Conception et préparation des bases de données: Modélisation, requêtes SQL, optimisation.",
+            "Développement de modules en architecture MVC (PHP/Zend Framework).",
+            "Implémentation d’algorithmes d’interprétation clinique (ASI2, règles métiers, validation fonctionnelle).",
+            "Gestion et résolution des tickets utilisateurs (Odoo): Analyse, débogage, tests et validation des correctifs",
           ],
         },
         env: {
