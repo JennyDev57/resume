@@ -26,8 +26,8 @@ export const resumeConfig: ResumeConfig = {
       en: "15 years experience | React, TypeScript | Remote",
     },
     summary: {
-      fr: "Avec plus de 15 ans d'expérience dans le développement web dont 3 ans sur les technologies modernes telle que React et Typescript.",
-      en: "With more than 15 years of experience in web development, including 3 years in modern technologies such as ReactJs and TypeScript.",
+      fr: "Développeur fullstack avec 15 ans d’expérience, dont 3 ans sur React et TypeScript. À l’aise en équipe agile comme en autonomie, je mets mon savoir-faire au service de projets innovants, en concevant des applications performantes, scalables et centrées utilisateur.",
+      en: "Fullstack developer with 15 years of experience, including 3 years in React and TypeScript. Comfortable in agile teams as well as working autonomously, I bring my know-how to innovative projects, designing performant, scalable, and user-centered applications.",
     },
     location: "Vinzier, France",
   },
@@ -466,7 +466,7 @@ export const resumeConfig: ResumeConfig = {
         en: "Computer Engineering",
         fr: "Génie Informatique",
       },
-      period: "2005 - 2006",
+      period: "2004 - 2006",
     },
     {
       school: {
