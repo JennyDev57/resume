@@ -418,8 +418,8 @@ export const resumeConfig: ResumeConfig = {
       id: "project-a",
       title: { en: "WattBudget ", fr: "WattBudget" },
       description: {
-        en: "A web app to calculate the cost charging for electric cars.",
-        fr: "Calcul du prix de revient de la charge pour voitures électriques.",
+        en: "Under development - A web app to calculate the cost charging for electric cars.",
+        fr: "En cours de construction - Calcul du prix de revient de la charge pour voitures électriques.",
       },
       techs: [
         "React",
