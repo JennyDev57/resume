@@ -432,7 +432,7 @@ export const resumeConfig: ResumeConfig = {
         "Tailwind CSS",
       ],
       url: "",
-      github: "https://github.com/JennyDev57/carCharging",
+      github: "https://github.com/JennyDev57/wattBudget",
     },
   ],
 
