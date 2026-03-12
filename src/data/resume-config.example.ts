@@ -452,6 +452,7 @@ export const resumeConfig: ResumeConfig = {
         fr: "Métier du Web et du Commerce Électronique",
       },
       period: "2006 - 2007",
+      logo: "/images/université_de_Metz.svg",
     },
     {
       school: {
@@ -467,6 +468,7 @@ export const resumeConfig: ResumeConfig = {
         fr: "Génie Informatique",
       },
       period: "2004 - 2006",
+      logo: "/images/université_de_Metz.svg",
     },
     {
       school: {
@@ -482,6 +484,7 @@ export const resumeConfig: ResumeConfig = {
         fr: "Informatique et Gestion",
       },
       period: " 2004",
+      logo: "/images/lycee_robert_schuman_metz.png",
     },
   ],
 
