@@ -430,6 +430,7 @@ export const resumeConfig: ResumeConfig = {
         "NestJs",
         "Swagger",
         "Scalar",
+        "PostgresSQL",
         "Astro",
         "ShadCN/UI",
         "Tailwind CSS",
